@@ -1,0 +1,130 @@
+/* CSS Document */
+
+#header { 
+	height: 80px; 
+	margin: 0px; 
+	padding: 0px; 
+	background: #4A8184; 
+	color:#8D0D19; 
+	}
+
+#header h1 { 
+	padding-top: 0.6em; 
+	margin: 0px; 
+	font-weight: 900; 
+	font-size: 35px; 
+	text-align: center;
+	 }
+
+#main { 
+	margin: 0px; 
+	padding: 0px; 
+	height: 600px; 
+	background: #EEE4B9; 
+	}
+
+
+body { 
+	margin: 0px; 
+	padding: 0px; 
+	border: 0px; 
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	background: #8D0D19; 
+	font-size: 14px;
+	line-height: 15px;
+}
+
+form { 
+	text-align: left; 
+	line-height: 2em; 
+	margin-left: 3em;
+	}
+
+
+
+table, tr, td {
+	vertical-align: top; 
+	font-size: 18px; 
+	line-height: 30px; 
+	padding-left: 0em;
+	 }
+
+.textinput {padding-right: 0em;}
+
+input {
+	padding-right: 3em;
+	margin-left: 1px;
+	text-indent: 0.3em;
+	-webkit-border-radius: 0.3em;
+	height: 1.5em;
+}
+
+input:focus { background-color: #D4E6F4; }
+
+input#line1 {display: inline;} 
+li {
+	text-indent: -35px; 
+	/*padding-left: -7px;*/
+	}
+
+ol {list-style: none; margin-left: 0.2px;}
+
+
+#description {margin-left: 20px;}
+#part-number {margin-left: 10px;}
+
+
+#inline, #inline1, #inline2, #inline-part2 {position: relative;}
+#oversize {position: absolute; bottom: -4px; right: 0px;}
+#inline-label {position: absolute; top: -30px; right: 0px;}
+#inline-label2 {position: absolute; top: -30px; right: 36px;}
+#row-inline {position: absolute; top: -25px; right: 0px;}
+
+
+#form-name { margin-left: 3.6em; -webkit-margin-start: 4em;}
+#form-state {margin-left: 56px; text-transform: uppercase;}
+#form-retail { display: inline;}
+
+#column2 {width: 22em;}
+#column1 {width: 26em;}
+
+#price-part {width: 12em;}
+#tax, #cost, #shipHandling, #total {width: 140px;text-align: right;}
+#tax {margin-left: 94px;}
+#cost {margin-left: 127px;}
+#total {margin-left: 122px;}
+#part-price, #part-qty { text-align: right;}
+
+
+#button { 
+	height: 50px;
+	border-radius: 1.0em;
+	text-align: center;
+	padding-left: 2em;
+	background-color: #D4E6F4;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 3px 4px 5px #666;
+	color:#8D0D19;
+	}
+
+#footer {
+	height: 28px; 
+	margin: 0px; 
+	padding: 1em; 
+	text-align: center; 
+	background: #333; 
+	color: #7766BD; 
+	}
+
+
+#header, #main, #footer { 
+	padding-left: 4em;
+	padding-right: 2em;
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+
+
